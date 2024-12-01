@@ -21,6 +21,7 @@
     SWR: "https://www.swr.de/~rss/swraktuell/swraktuell-100.xml",
     "SWR BW": "https://www.swr.de/~rss/swraktuell/swraktuell-bw-100.xml",
     "SWR RP": "https://www.swr.de/~rss/swraktuell/swraktuell-rp-100.xml"
+    Hessenschau: "https://www.hessenschau.de/index.rss",
   };
 
   async function getFeed(name) {
