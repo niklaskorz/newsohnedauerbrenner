@@ -29,11 +29,11 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
     - name: Get latest code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: Install nodejs
-      uses: actions/setup-node@v2-beta
+      uses: actions/setup-node@v4
       with:
-        node-version: '16'
+        node-version: '20'
     - name: Build project
       run: |
         export NODE_OPTIONS="--max_old_space_size=4096"
