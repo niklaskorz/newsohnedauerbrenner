@@ -2,15 +2,15 @@
   import { xml2js } from "xml-js";
 
   const keywords = [
-    "Trump",
-    "Kennedy",
-    "Putin",
-    "Russland",
-    "Ukraine",
-    "NATO",
-    "Israel",
-    "Gazastreifen",
-    "Syrien"
+    "trump",
+    "kennedy",
+    "putin",
+    "russland",
+    "ukraine",
+    "nato",
+    "israel",
+    "gazastreifen",
+    "syrien"
   ];
 
   let selectedSource = "Tagesschau";
