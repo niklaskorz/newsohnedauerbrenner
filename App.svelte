@@ -112,7 +112,7 @@
 </style>
 
 <main>
-  <h1>{selectedSource} ohne Corona</h1>
+  <h1>{selectedSource} ohne Dauerbrenner</h1>
   <nav>
     <ul>
       {#each Object.keys(feeds) as source}
