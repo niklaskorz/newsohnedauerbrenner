@@ -2,12 +2,15 @@
   import { xml2js } from "xml-js";
 
   const keywords = [
-    "corona",
-    "omikron",
-    "inzidenz",
-    "luca-app",
-    "impfung",
-    "impfpflicht"
+    "Trump",
+    "Kennedy",
+    "Putin",
+    "Russland",
+    "Ukraine",
+    "NATO",
+    "Israel",
+    "Gazastreifen",
+    "Syrien"
   ];
 
   let selectedSource = "Tagesschau";
